@@ -11,6 +11,7 @@ alias l='less'
 
 # Git
 alias gc='git commit'
+alias gp='git push'
 alias grup='git remote update --prune'
 
 
