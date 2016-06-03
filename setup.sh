@@ -27,7 +27,7 @@ rm ~/README.md
 echo "Deleting ~/.git folder"
 rm -rf ~/.git
 
-if ![ -d ~/.vim ]; then
+if [ ! -d ~/.vim ]; then
 	mkdir ~/.vim
 fi
 
