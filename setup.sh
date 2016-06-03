@@ -5,7 +5,7 @@ cp -vf bash_settings/* ~/
 
 
 # Delete unnecessary files
-if [ -f setup.sh ]; do
+if [ -f setup.sh ]; then
 	echo "Deleting Setup Script"
 	rm setup.sh
 fi
