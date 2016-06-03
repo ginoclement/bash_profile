@@ -27,11 +27,11 @@ rm ~/README.md
 echo "Deleting ~/.git folder"
 rm -rf ~/.git
 
-if [ ! -d ~/.vim ]; then
-	mkdir ~/.vim
+if [ ! -d ~/.vim/colors ]; then
+	mkdir -p ~/.vim/colors
 fi
 
 # Download latest copy of badwolf
 # Credit for theme to https://github.com/sjl/badwolf
 wget https://raw.githubusercontent.com/sjl/badwolf/master/colors/badwolf.vim
-mv badwolf.vim ~/.vim/
+mv badwolf.vim ~/.vim/colors/
