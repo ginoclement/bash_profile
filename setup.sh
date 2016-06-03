@@ -35,4 +35,3 @@ fi
 # Credit for theme to https://github.com/sjl/badwolf
 wget https://raw.githubusercontent.com/sjl/badwolf/master/colors/badwolf.vim
 mv badwolf.vim ~/.vim/
-rm badwolf.vim
