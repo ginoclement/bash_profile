@@ -5,7 +5,7 @@
 # it works.
 
 git clone git@github.com:ginoclement/bash_settings.git
-cp -vrf bash_settings/. ~/
+cp -rf bash_settings/. ~/
 
 
 # Delete unnecessary files
@@ -27,3 +27,12 @@ rm ~/README.md
 echo "Deleting ~/.git folder"
 rm -rf ~/.git
 
+if [! -d ~/.vim ]; then
+	mkdir ~/.vim
+fi
+
+# Download latest copy of badwolf
+# Credit for theme to https://github.com/sjl/badwolf
+wget https://raw.githubusercontent.com/sjl/badwolf/master/colors/badwolf.vim
+mv badwolf.vim ~/.vim/
+rm badwolf.vim
