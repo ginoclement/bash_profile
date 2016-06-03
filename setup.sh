@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone git@github.com:ginoclement/bash_settings.git
-cp -vrf bash_settings/ ~/
+cp -vrf bash_settings/. ~/
 
 
 # Delete unnecessary files
@@ -12,4 +12,7 @@ fi
 
 echo "Deleting README.md"
 rm README.md
+
+echo "Deleting ~/.git folder"
+rm -rf ~/.git
 
