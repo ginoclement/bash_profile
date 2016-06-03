@@ -11,4 +11,4 @@ git checkout -t origin/master
 
 This can also be done by sourcing one of the files:
 
-`wget https://raw.githubusercontent.com/ginoclement/bash_settings/master/setup.sh | sh`
+`curl https://raw.githubusercontent.com/ginoclement/bash_settings/master/setup.sh | sh`
