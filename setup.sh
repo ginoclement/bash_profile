@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone git@github.com:ginoclement/bash_settings.git
-cp -vf bash_settings/* ~/
+cp -vrf bash_settings/ ~/
 
 
 # Delete unnecessary files
