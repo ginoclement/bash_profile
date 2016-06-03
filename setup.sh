@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# This is a very ugly way to handle this, I might fix it
+# in the future by exluding directories in the copy but
+# it works.
 
 git clone git@github.com:ginoclement/bash_settings.git
 cp -vrf bash_settings/. ~/
